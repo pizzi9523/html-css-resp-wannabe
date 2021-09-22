@@ -74,6 +74,41 @@ img {
 
 @media screen and (max-width: 420px) {
 
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   
-  
+  h1{
+    padding: 1.2rem;
+    font-size: 45px;
+  }
+
+  .row{
+    margin: 0;
+  }
+
+  hr{
+    border-width: 3px;
+  }
+
+  #lezioni .row,
+  #why .row{
+    background-color: #F2F2CD ;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.right,
+  #steps .row>.central,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    width: 100%;
+    font-size: 29px;
+    margin: 1rem 0;
+  }
+ 
 }
