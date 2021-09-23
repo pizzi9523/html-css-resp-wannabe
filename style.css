@@ -81,21 +81,30 @@ img {
   }
   
   h1{
-    padding: 1.2rem;
-    font-size: 45px;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  img{
+    height: 100px;
+  }
+  
+  hr{
+    display: block;
   }
 
   .row{
     margin: 0;
-  }
-
-  hr{
-    border-width: 3px;
+    width: 100%;
   }
 
   #lezioni .row,
   #why .row{
     background-color: #F2F2CD ;
+  }
+
+  #steps .row{
+    background-color: rgb(255, 255, 255);
   }
 
   #lezioni .row>.left,
@@ -107,8 +116,13 @@ img {
   #why .row>.second,
   #why .row>.third{
     width: 100%;
-    font-size: 29px;
-    margin: 1rem 0;
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    padding: 5px 8px;
+  }
+
+  #why .row img{
+    padding: 20px;
   }
  
 }
